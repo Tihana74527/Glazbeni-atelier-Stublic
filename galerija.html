@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Galerija</title>
+
+    <meta name="author" content="Tihana Dolovski">
+    <meta name="description" content="Glazbeni atelier Stublić omogućuje polaznicima učenje ili usavršavanje gitare ili klavira.">
+    <meta name="keywords" content="glazbeni, atelier, Stublić, gitara, klavir, tečaj, učenje">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/manji-logo.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/manji-logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/manji-logo.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/manji-logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/manji-logo.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/manji-logo.png">
+    <meta name="theme-color" content="#ffffff">
+  <!--favicon kraj-->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+  <!--Zaglavlje-->
+  <header class="zaglavlje-galerija">
+
+
+
+      <!--Navigacija-->
+      <nav class="nav" id="navigacija">
+
+            <a href="index.html">Naslovnica</a>
+            <a href="index.html#o-nama">O atelieru</a>
+            <a href="index.html#odjel">Odjeli i predavači</a>
+            <a href="upisi.html">Upisi</a>
+            <a href="galerija.html">Galerija</a>
+            <a href="index.html#mapa">Kontakt</a>
+            <a href="cjenik.html">Cjenik</a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i></a>
+
+    </nav>
+    <!--navigacija kraj-->
+
+    <!--Logo-->
+<div class="zaglavlje-logo">
+      <a href="index.html"><img src="img/logo.jpg" alt="Logo" title="Glazbeni atelier Stublić"></a>
+  </div>
+    <!--logo kraj-->
+
+    <!--Naslov stranice-->
+    <div class="zaglavlje-naslov">
+      <h1 title="Galerija">Galerija</h1>
+    </div>
+    <!--naslov kraj-->
+
+</header>
+  <!--zaglavlje kraj-->
+
+  <!--Glavni sadržaj-->
+   <main class="galerija-slike">
+     <div class="galerija-slike-kol1">
+      <img src="img/p2.jpg" alt="Slika 2" title="Slika 2">
+
+     <img src="img/p4.jpg" alt="Slika 4" title="Slika 4">
+     <img src="img/p7.jpg" alt="Slika 7" title="Slika 7">
+      <img src="img/p1.jpg" alt="Slika 1" title="Slika 1">
+
+   </div>
+    <div class="galerija-slike-kol2">
+         <img src="img/p3.jpg" alt="Slika 3" title="Slika 3">
+        <img src="img/p5.jpg" alt="Slika 5" title="Slika 5">
+     <img src="img/p8.jpg" alt="Slika 8" title="Slika 8">
+
+     <img src="img/p6.jpg" alt="Slika 6" title="Slika 6">
+    <div>
+  </main>
+  <!--glavni kraj-->
+  <!--Podnožje-->
+  <!--Dizajn-->
+  <footer class="podnozje-dizajn">
+          <p>© Web design/development: Tihana Dolovski 2023</p>
+  </footer>
+  <!--dizajn kraj-->
+  <script>
+  function myFunction() {
+    var x = document.getElementById("navigacija");
+    if (x.className === "nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav";
+    }
+  }
+  </script>
+  </body>
+  </html>

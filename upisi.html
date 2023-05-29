@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Upisi</title>
+
+    <meta name="author" content="Tihana Dolovski">
+    <meta name="description" content="Glazbeni atelier Stublić omogućuje polaznicima učenje ili usavršavanje gitare ili klavira.">
+    <meta name="keywords" content="glazbeni, atelier, Stublić, gitara, klavir, tečaj, učenje">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/manji-logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/manji-logo.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/manji-logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/manji-logo.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/manji-logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/manji-logo.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/manji-logo.png">
+    <meta name="theme-color" content="#ffffff">
+  <!--favicon kraj-->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+  <!--Zaglavlje-->
+  <header class="zaglavlje-upisi">
+
+
+
+      <!--Navigacija-->
+    <nav class="nav" id="navigacija">
+
+          <a href="index.html">Naslovnica</a>
+          <a href="index.html#o-nama">O atelieru</a>
+          <a href="index.html#odjel">Odjeli i predavači</a>
+          <a href="upisi.html">Upisi</a>
+          <a href="galerija.html">Galerija</a>
+          <a href="index.html#mapa">Kontakt</a>
+          <a href="cjenik.html">Cjenik</a>
+
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i></a>
+
+</nav>
+    <!--navigacija kraj-->
+
+    <!--Logo-->
+<div class="zaglavlje-logo">
+      <a href="index.html"><img src="img/logo.jpg" alt="Logo" title="Glazbeni atelier Stublić"></a>
+  </div>
+    <!--logo kraj-->
+
+    <!--Naslov stranice-->
+    <div class="zaglavlje-naslov">
+      <h1 title="Prijavi se">Prijavi se</h1>
+    </div>
+    <!--naslov kraj-->
+
+</header>
+  <!--zaglavlje kraj-->
+
+  <!--Glavni sadržaj-->
+   <section class="upisi">
+     <p class="upisi-naslov">
+        Ispunite formu za prijavu i očekujte naš poziv!
+        </p>
+    </section>
+    <!--glavni sadržaj-kraj-->
+
+      <!--Forma za upis-->
+      <section class="forma">
+        <div class="forma-pozadina">
+        <form>
+          <div class="forma-flex">
+            <div class="forma-flex-1">
+          <label for="spol">Spol:</label>
+            </div>
+          <div class="forma-flex-2">
+          <input type="radio" name="spol" id="musko" value="musko">
+            <label for="musko">Muško</label>
+          <input type="radio" name="spol" id="zensko" value="zensko">
+            <label for="zensko">Žensko</label>
+            <br>
+          </div>
+        </div>
+        <div class="forma-flex">
+          <div class="forma-flex-1">
+            <label for="ime">Ime:</label>
+          </div>
+            <div class="forma-flex-2">
+          <input type="text" id="ime" name="ime" size="20" required>
+          <br>
+        </div>
+      </div>
+      <div class="forma-flex">
+        <div class="forma-flex-1">
+          <label for="prezime">Prezime:</label>
+        </div>
+          <div class="forma-flex-2">
+          <input type="text" id="prezime" name="prezime" size="20" required>
+          <br>
+        </div>
+      </div>
+      <div class="forma-flex">
+        <div class="forma-flex-1">
+          <label for="adresa">Adresa:</label>
+        </div>
+          <div class="forma-flex-2">
+          <input type="text" id="adresa" name="adresa" size="20" required>
+          <br>
+        </div>
+      </div>
+      <div class="forma-flex">
+        <div class="forma-flex-1">
+          <label for="datum">Datum rođenja:</label>
+        </div>
+        <div class="forma-flex-2">
+          <input type="date" id="datum rodenja" name="datumrod" required>
+          <br>
+        </div>
+      </div>
+      <div class="forma-flex">
+        <div class="forma-flex-1">
+          <label for="telefon">Broj telefona:</label>
+        </div>
+          <div class="forma-flex-2">
+          <input type="tel" id="broj telefona" name="telefon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+          <br>
+        </div>
+      </div>
+      <div class="forma-flex">
+        <div class="forma-flex-1">
+          <label for="email">E-mail:</label>
+        </div>
+          <div class="forma-flex-2">
+          <input type="email" id="e-mail" name="email" required>
+          <br>
+        </div>
+      </div>
+      <div class="forma-flex">
+        <div class="forma-flex-1">
+          <label for="instrument">Željeni instrument:</label>
+        </div>
+        <div class="forma-flex-2">
+          <input type="checkbox" name="instrument1" value="akusticna">Akustična gitara<br>
+          <input type="checkbox" name="instrument2" value="elektricna">Električna gitara<br>
+          <input type="checkbox" name="instrument3" value="ukulele">Ukulele<br>
+          <input type="checkbox" name="instrument4" value="klavir">Klavir<br>
+          <input type="checkbox" name="instrument5" value="orgulje">Orgulje<br>
+          <input type="checkbox" name="instrument6" value="synthesizer">Synthesizer<br>
+</div>
+</div>
+<div class="forma-flex">
+  <div class="forma-flex-1">
+          <label for="iskustvo">Iskustvo:</label>
+        </div>
+          <div class="forma-flex-2">
+            <input type="radio" name="iskustvo" id="pocetnik" value="pocetnik">
+              <label for="pocetnik">Početnik</label>
+            <input type="radio" name="iskustvo" id="imam iskustva" value="imam iskustva">
+              <label for="iskustvo">Imam iskustva</label>
+          <br>
+        </div>
+      </div>
+      <div class="forma-flex">
+        <div class="forma-flex-1">
+          <label for="napomena">Napomena:</label>
+        </div>
+        <div class="forma-flex-2">
+            <textarea name="tekst" rows="10" cols="45"></textarea>
+          <br>
+        </div>
+      </div>
+<div class="suglasnost">
+          <input type="checkbox" name="box" value="check" required>Suglasan/-na sam da se prikupljeni podaci
+          obrađuju za potrebe konzultacija ili upisa u Glazbeni atelier Stublić te da se u druge svrhe neće koristiti.
+<br>
+</div>
+
+            <button type="submit">Pošalji</button>
+        </form>
+      </div>
+    </section>
+      <!--forma za upis kraj-->
+
+
+      <!--Podnožje-->
+      <!--Dizajn-->
+      <footer class="podnozje-dizajn">
+
+          <p><a href="https://www.freepik.com/free-photo/happy-smiling-girl-playing-guitar_7028489.htm#page=3&query=happy%20guitar%20player&position=3&from_view=search&track=sph">Image by Racool_studio</a> on Freepik</p>
+
+
+              <p>© Web design/development: Tihana Dolovski 2023</p>
+
+      </footer>
+      <!--dizajn kraj-->
+      <script>
+      function myFunction() {
+        var x = document.getElementById("navigacija");
+        if (x.className === "nav") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav";
+        }
+      }
+      </script>
+      </body>
+      </html>
